@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência. &#x1f60f</p>
+    <picture>
+        <source media="(min-width: 1220px)" srcset="images/image1-1200x857.jpg">
+        <source media="(min-width: 770px)" srcset="images/image1-750x857.jpg">
+        <img src="images/image1-450x857.jpg" alt="Running">
+    </picture>
+</body>
+</html>
