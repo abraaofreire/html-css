@@ -4,41 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uso de iframes</title>
+    <title>iframe</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
 
         iframe {
+            width: 96vw;
             height: 400px;
-            width: 97vw;
-            border: 2px solid black ;
+            border: 2px solid black;
         }
     </style>
 </head>
 <body>
     <h1>Faça uma escolha</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsum veritatis quisquam distinctio, mollitia facere aut. Cum sint odit dolorum rem. Est veniam doloribus libero non maxime, minima voluptates. Nesciunt?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolores quam veniam libero nostrum voluptatum cumque minima, voluptatibus delectus commodi! A, in? Tempora quam quisquam consequatur, placeat necessitatibus obcaecati natus.</p>
 
     <ul>
-        <li><a href="extra-pages/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="extra-pages/pag001.html" target="frame">Primeria página</a></li>
         <li><a href="extra-pages/pag002.html" target="frame">Segunda página</a></li>
         <li><a href="extra-pages/pag003.html" target="frame">Terceira página</a></li>
     </ul>
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium vitae natus repudiandae exercitationem maxime consequatur deleniti pariatur tempore, sunt eos unde magni? Deserunt, atque? Quia sunt provident laudantium tempora nemo? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae tempore quod eveniet earum! Earum a minus quisquam dolorem reiciendis saepe sed ab voluptas mollitia tempore inventore culpa, aspernatur quo nesciunt!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sapiente eius consectetur nam excepturi doloremque et nulla ratione, tempora tenetur, magnam quia alias placeat blanditiis quibusdam eaque optio animi magni?
+    Nemo, dolorum aliquam non quas possimus dolorem veniam quibusdam sunt est odio fugiat assumenda maiores similique corporis deleniti at ea ex dicta libero et commodi vitae aperiam? Temporibus, consectetur possimus?</p>
 
-    <iframe src="" name="frame" srcdoc="
-    <h1>Faça uma escolha</h1>    
+    <iframe srcdoc="
+    <style>
+        body {
+            background-color: royalblue;
+            color: white;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline; 
+        }
+    </style>
+    <h1>Escolha uma das opções abaixo:</h1>
     <ul>
-        <li><a href='extra-pages/pag001.html' target='frame'>Primeira página</a></li>
+        <li><a href='extra-pages/pag001.html' target='frame'>Primeria página</a></li>
         <li><a href='extra-pages/pag002.html' target='frame'>Segunda página</a></li>
         <li><a href='extra-pages/pag003.html' target='frame'>Terceira página</a></li>
-    </ul>">
-        <p>Infelizmente, seu navegador não é compatível com isso.</p>       
+    </ul>
+    " name="frame">
+        <p>Infelizmente seu navegador não é compatível!</p>
     </iframe>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, aut, laboriosam voluptates sequi omnis veritatis optio amet laborum illum harum vitae! Error officia perferendis eos neque, pariatur aliquam accusamus fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam officia fuga ipsum ab quo sed quos, officiis quia sapiente facere a consequuntur neque. Architecto repellendus sint numquam quo impedit temporibus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi suscipit consequuntur quas recusandae repellat. Corporis a veritatis nisi suscipit dolor nobis soluta, culpa temporibus, eos eius recusandae, ipsam dignissimos consequuntur.
+    Qui in sint repellat illo cupiditate porro id non nobis, pariatur eligendi voluptas reiciendis ab quos magni. Tempore, est nihil rem nulla ratione veniam quasi, suscipit tenetur adipisci deleniti architecto.</p>
 </body>
 </html>
